@@ -10,6 +10,8 @@ My initial proposal and idea that needs to be expanded upon is what I call the C
 by their individual 'expert', following a hierarchical MoE. For example, our 'World Generator' holds the centralized information for the creation of future procedural assets (characters, dialogue, 3D assets, animation, SFX, VFX, etc.)
 that would get fed into a "second server" if you will, that interacts with our game to create these assets during runtime.
 
+![image](https://github.com/Ian-Tharp/GenerativeProceduralWorlds/assets/64619437/8480bc5d-d5b9-486e-be7c-f2d0bba8a870)
+
 Front-End ----- CDN ----- Backend ----- Cloud Services ----- SQL Databases
                              |                |                   |
                       Cognitive Core ----- VM Scaling ----- Cloud Storage
@@ -29,6 +31,8 @@ This idea is simply theoretical at the moment, but this proposed solution is the
 goal to ensure that this sort of system would work. The expansion of exectuable Python scripts during runtime within Unreal Engine would be a huge game changer. If there are certain APIs or just functionality built into the engine
 itself, the Python scripts would be able to execute the creation of assets during runtime, allowing for this system to work. Although, again at the time of this creation, I am not qualified or knowledgeable enough to understand if
 this system is even a viable project or idea to pursue. Time will tell.
+
+![image](https://github.com/Ian-Tharp/GenerativeProceduralWorlds/assets/64619437/edbd1d70-ec66-4de6-80cc-af12eaddf12f)
 
 (ChatGPT suggested improvement on the architecture diagram)
  Front-End
