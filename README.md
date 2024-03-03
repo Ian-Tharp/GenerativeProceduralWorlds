@@ -1,4 +1,4 @@
-# GenerativeProceduralWorlds
+# Generative Procedural Worlds
 Web app proof of concept for generative artificial intelligence to steer the direction and parameters of procedural generation within video games. This should, in theory, aid in creating a constantly dynamic and ever evolving world.
 With the help of generative AI, the world can change based off of player preferences and interactions with NPCs in the world.
 
