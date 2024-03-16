@@ -1,0 +1,32 @@
+a {
+  text-align: center;
+  color: grey;
+}
+
+.row {
+  background-color: aquamarine;
+  width: fit-content;
+}
+
+.container-fluid {
+  @media (max-width: 996px) {
+    display: none;
+    .row {
+      background-color: aquamarine;
+    }
+  }
+}
+
+::ng-deep container-fluid {
+  background-color: aquamarine !important;
+}
+
+.navbar {
+  padding: 0 0 0 30px !important;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-top: solid;
+  border-color: white;
+  border-width: thin;
+}
+

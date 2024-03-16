@@ -1,0 +1,24 @@
+html {
+  overflow-y: hidden !important;
+}
+
+.content {
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 3rem 0 3rem;
+}
+
+.main {
+  overflow-x: hidden !important;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin: auto 0 0 0;
+}

@@ -1,3 +1,17 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NgModule } from '@angular/core';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: 'landing-page',
+    component: LandingPageComponent
+  }
+];
+@NgModule({
+    imports: [RouterModule.forRoot(routes /*, {enableTracing: true}*/)],
+    exports: [RouterModule]
+})
+export class AppRoutingModule {
+
+}
