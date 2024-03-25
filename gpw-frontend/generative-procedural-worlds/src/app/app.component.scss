@@ -3,13 +3,13 @@ html {
 }
 
 .content {
-  background-color: grey;
+  height: 100vh;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 3rem 0 3rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .main {
@@ -17,6 +17,10 @@ html {
   max-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.router-outlet {
+  height: 0vh !important;
 }
 
 .footer {

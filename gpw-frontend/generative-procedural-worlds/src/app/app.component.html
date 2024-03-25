@@ -2,7 +2,9 @@
   <app-header></app-header>
   <app-navigation></app-navigation>
   <div class="row content">
-    <router-outlet (activate)="setHeader()"></router-outlet>
+    <div>
+      <router-outlet (activate)="setHeader()" class="router-outlet"></router-outlet>
+    </div>
   </div>
-  <!--footer component-->
+  <app-footer></app-footer>
 </div>

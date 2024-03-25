@@ -1,2 +1,124 @@
+$twilight-navy: #001c2b;
+$mystic-turquoise-palette: (
+  50: #e3fff2,
+  100: #baffdd,
+  200: #84ffc8,
+  300: #00FFAE,
+  400: #00FB98,
+  500: #00F586,
+  600: #00e379,
+  700: #00ce6a,
+  800: #00bc5d,
+  900: #009946,
+  contrast: (
+    50: $twilight-navy,
+    100: $twilight-navy,
+    200: $twilight-navy,
+    300: $twilight-navy,
+    400: $twilight-navy,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  )
+);
+$enchanted-sky-blue-palette: (
+  50: #dff8fe,
+  100: #adebfd,
+  200: #71defe,
+  300: #00d0ff,
+  400: #00c5ff,
+  500: #00baff,
+  600: #00abf6,
+  700: #0098e3,
+  800: #0086d0,
+  900: #0066af,
+  contrast: (
+    50: $twilight-navy,
+    100: $twilight-navy,
+    200: $twilight-navy,
+    300: $twilight-navy,
+    400: $twilight-navy,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  )
+);
+
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$generative-procedural-worlds-primary: mat.define-palette($mystic-turquoise-palette);
+$generative-procedural-worlds-accent: mat.define-palette($enchanted-sky-blue-palette);
+
+// The warn palette is optional (defaults to red).
+$generative-procedural-worlds-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$generative-procedural-worlds-theme: mat.define-light-theme((
+  color: (
+    primary: $generative-procedural-worlds-primary,
+    accent: $generative-procedural-worlds-accent,
+    warn: $generative-procedural-worlds-warn,
+  ),
+  typography: mat.define-typography-config(),
+  density: 0
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($generative-procedural-worlds-theme);
+
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$deep-space-blue: #0A2239;
+$sage-green: #A3EBB1;
+$neutral-sand: #fffad7;
+$elemental-grey: #C4C4C4;
+$mystical-purple: #000726;
+$ancient-gold: #F4B860;
+
+
+body {
+  background-color: $mystical-purple;
+  color: white;
+}
+
+span {
+  color: $mystical-purple;
+}
+
+.content {
+  background-color: $mystical-purple;
+  height: 100vh;
+}
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-label-text-color: black !important;
+}
+
+.mat-mdc-raised-button.mat-primary:hover {
+  --mdc-protected-button-label-text-color: #ff0055 !important;
+  transition: 0.5s;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

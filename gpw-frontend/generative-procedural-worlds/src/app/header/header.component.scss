@@ -1,3 +1,24 @@
 .header {
-  margin: 1rem 3rem 1rem 3rem;
+  display: flex;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+span {
+  color: white !important;
+}
+
+.buttons-div {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button {
+  margin-right: 1rem;
 }

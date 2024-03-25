@@ -6,6 +6,11 @@ export const routes: Routes = [
   {
     path: 'landing-page',
     component: LandingPageComponent
+  },
+  {
+    path: '',
+    redirectTo: 'landing-page',
+    pathMatch: 'full'
   }
 ];
 @NgModule({

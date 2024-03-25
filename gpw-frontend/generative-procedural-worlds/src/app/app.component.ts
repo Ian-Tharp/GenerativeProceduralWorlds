@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,9 @@ import { HeaderComponent } from './header/header.component';
   imports: [
     RouterOutlet,
     NavigationComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    MatButtonModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

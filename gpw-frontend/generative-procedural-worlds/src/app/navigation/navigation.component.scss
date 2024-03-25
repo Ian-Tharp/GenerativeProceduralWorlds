@@ -1,32 +1,30 @@
 a {
+  font-size: 20px;
   text-align: center;
-  color: grey;
+  color: #00d0ff;
 }
 
-.row {
-  background-color: aquamarine;
-  width: fit-content;
+a:hover {
+  color: #00ffae;
+  transition: 1.25s;
 }
 
-.container-fluid {
-  @media (max-width: 996px) {
-    display: none;
-    .row {
-      background-color: aquamarine;
-    }
-  }
+.main {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)* 0.5);
+  padding-left: calc(var(--bs-gutter-x)* 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }
 
-::ng-deep container-fluid {
-  background-color: aquamarine !important;
-}
 
 .navbar {
   padding: 0 0 0 30px !important;
   margin-left: -15px;
   margin-right: -15px;
-  border-top: solid;
+  border: solid;
   border-color: white;
   border-width: thin;
 }
-
