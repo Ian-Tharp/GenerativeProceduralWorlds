@@ -3,7 +3,7 @@
     <span>Generative Procedural Worlds</span>
   </div>
   <div class="buttons-div">
-    <button mat-raised-button color="primary" class="signup-button">Sign Up</button>
-    <button mat-raised-button color="primary">Login</button>
+    <button mat-raised-button color="primary" class="signup-button" data-test="signupButton" (click)="signup()">Sign Up</button>
+    <button mat-raised-button color="primary" data-test="loginButton" (click)="login()">Login</button>
   </div>
 </div>

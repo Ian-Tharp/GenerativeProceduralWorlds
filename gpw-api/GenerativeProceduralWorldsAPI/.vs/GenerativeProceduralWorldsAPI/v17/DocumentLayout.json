@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|c:\\users\\owner\\desktop\\projects\\generativeproceduralworlds\\gpw-api\\generativeproceduralworldsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|c:\\users\\owner\\desktop\\projects\\generativeproceduralworlds\\gpw-api\\generativeproceduralworldsapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|c:\\users\\owner\\desktop\\projects\\generativeproceduralworlds\\gpw-api\\generativeproceduralworldsapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|c:\\users\\owner\\desktop\\projects\\generativeproceduralworlds\\gpw-api\\generativeproceduralworldsapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0D5BE4B-7EAC-4980-99DC-39A18785FDDF}|GenerativeProceduralWorldsAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T02:21:16.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T02:21:11.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T02:20:40.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Owner\\Desktop\\Projects\\GenerativeProceduralWorlds\\gpw-api\\GenerativeProceduralWorldsAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T02:18:52.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -110,15 +110,5 @@ span {
   height: 100vh;
 }
 
-.mat-mdc-raised-button.mat-primary {
-  --mdc-protected-button-label-text-color: black !important;
-}
-
-.mat-mdc-raised-button.mat-primary:hover {
-  --mdc-protected-button-label-text-color: #ff0055 !important;
-  transition: 0.5s;
-}
-
-
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
